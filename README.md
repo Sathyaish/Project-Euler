@@ -1,6 +1,6 @@
 # Project-Euler
 
-This repository contains problems I solve from the [problem archives](https://projecteuler.net/archives) provided on the [Project Euler](https://projecteuler.net/) website.
+This repository contains my solutions to the [problem archives](https://projecteuler.net/archives) provided on the [Project Euler](https://projecteuler.net/) website.
 
 Note that these are different from the [recent problems](https://projecteuler.net/recent) provided on the website.
 
