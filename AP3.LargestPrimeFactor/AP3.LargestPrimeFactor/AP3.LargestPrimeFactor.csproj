@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConstantTime.cs" />
+    <Compile Include="FractionalPowerTime.cs" />
     <Compile Include="Enumerable.cs" />
     <Compile Include="LinearTime.cs" />
     <Compile Include="MathUtil.cs" />

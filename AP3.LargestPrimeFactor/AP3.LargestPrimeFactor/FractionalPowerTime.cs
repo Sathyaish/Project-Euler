@@ -4,7 +4,11 @@ using System.Linq;
 
 namespace AP3.LargestPrimeFactor
 {
-    public class ConstantTime
+    // Please see the following links for a definition of the Fractional Power time
+    // http://stackoverflow.com/questions/39830714/what-would-you-call-the-time-complexity-of-an-algorithm-of-this-sort
+    // https://en.wikipedia.org/wiki/Time_complexity
+    // O(nc) where 0 < c < 1
+    public class FractionalPowerTime
     {
         public static long FindLargestPrimeFactorOf(long n)
         {

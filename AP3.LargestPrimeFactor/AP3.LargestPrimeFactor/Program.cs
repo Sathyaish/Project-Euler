@@ -15,7 +15,7 @@ namespace AP3.LargestPrimeFactor
 
             // InLinearTime(n);
 
-            InConstantTime(n);
+            InFractionalPowerTime(n);
 
             Console.ReadKey();
         }
@@ -30,11 +30,15 @@ namespace AP3.LargestPrimeFactor
             Console.WriteLine($"The operation took {stopwatch.ElapsedMilliseconds} milliseconds.\n");
         }
 
-        static void InConstantTime(long n)
+        // Please see the following links for a definition of the Fractional Power time
+        // http://stackoverflow.com/questions/39830714/what-would-you-call-the-time-complexity-of-an-algorithm-of-this-sort
+        // https://en.wikipedia.org/wiki/Time_complexity
+        // O(nc) where 0 < c < 1
+        static void InFractionalPowerTime(long n)
         {
-            Console.WriteLine("CONSTANT TIME OPERATION:");
+            Console.WriteLine("FRACTIONAL POWER TIME OPERATION:");
             var stopwatch = Stopwatch.StartNew();
-            var largestPrimeFactor = ConstantTime.FindLargestPrimeFactorOf(n);
+            var largestPrimeFactor = FractionalPowerTime.FindLargestPrimeFactorOf(n);
             stopwatch.Stop();
             Console.WriteLine($"The largest prime factor of {n} is: {largestPrimeFactor}.");
             Console.WriteLine($"The operation took {stopwatch.ElapsedMilliseconds} milliseconds.\n");
